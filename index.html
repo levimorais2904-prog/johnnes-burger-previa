@@ -1,74 +1,53 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#15100d">
-  <meta name="description" content="Conheça a Johnne’s Burger, em Tupinambá, Guarulhos. Hambúrguer artesanal e pedidos pelo WhatsApp. Prévia visual do cardápio.">
-  <title>Johnne’s Burger | Cardápio</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2315100d'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Arial' font-weight='900' font-size='28' fill='%23f59132'%3EJ%3C/text%3E%3C/svg%3E">
-  <link rel="preload" href="assets/display.woff" as="font" type="font/woff" crossorigin>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#15100d">
+<meta name="description" content="Johnne’s Burger em Guarulhos. Monte sua sacola com burgers, porções, combos e bebidas.">
+<title>Johnne’s Burger | Cardápio</title>
+<link rel="icon" href="assets/johnnes-logo.png"><link rel="preload" href="assets/display.woff" as="font" type="font/woff" crossorigin><link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip" href="#cardapio">Ir para o cardápio</a>
-  <header class="site-header shell">
-    <a class="brand" href="#inicio" aria-label="Johnne’s Burger, início"><img src="assets/johnnes-logo.png" width="72" height="72" alt="Logo Johnne’s Burger"><span>JOHNNE’S<small>BURGER</small></span></a>
-    <nav class="desktop-nav" aria-label="Navegação principal"><a href="#cardapio">Cardápio</a><a href="#delivery">Delivery</a><a href="#onde">Onde estamos</a></nav>
-    <a class="header-location" href="#onde"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Tupinambá<small>Guarulhos, SP</small></span></a>
-  </header>
-  <main>
-    <section class="hero shell" id="inicio" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="short-line"></span> JOHNNE’S BURGER</p>
-        <h1 id="hero-title">HAMBÚRGUER<br>ARTESANAL<br><em>DE VERDADE.</em></h1>
-        <p class="intro">A fome pede um burger.<br>Você pede Johnne’s.</p>
-        <div class="hero-actions"><a class="button button-orange" href="#cardapio">Explorar o cardápio <span aria-hidden="true">↓</span></a><a class="text-link" href="#delivery">Escolher como pedir <span aria-hidden="true">↗</span></a></div>
-      </div>
-      <figure class="hero-visual">
-        <img class="hero-burger" src="assets/burger-especial.jpg" width="235" height="366" alt="Hambúrguer da Johnne’s com pão dourado e camadas de recheio, fotografado pela hamburgueria" fetchpriority="high">
-        <div class="photo-shade"></div>
-        <div class="image-topline"><span>DA JOHNNE’S<br>PRA SUA CASA.</span><span class="round-arrow" aria-hidden="true">↗</span></div>
-        <figcaption><span>É DE DAR<br><b>ÁGUA NA BOCA.</b></span><small>Foto do Instagram<br>@johnnesburguer</small></figcaption>
-      </figure>
-    </section>
-    <div class="brand-strip" aria-label="Hambúrguer artesanal, delivery em Guarulhos, Johnne’s Burger"><div class="shell"><span>HAMBÚRGUER ARTESANAL</span><b aria-hidden="true">✳</b><span>DELIVERY EM GUARULHOS</span><b aria-hidden="true">✳</b><span>JOHNNE’S BURGER</span></div></div>
-    <section class="menu-section shell" id="cardapio" aria-labelledby="menu-title">
-      <div class="section-heading"><div><p class="eyebrow">ESCOLHA O SEU</p><h2 id="menu-title">BATEU A <em>FOME?</em></h2></div><p>Seu próximo burger<br>começa por aqui.</p></div>
-      <p class="menu-note">Prévia com lanches de exemplo. Nomes e valores entram com o cardápio da loja.</p>
-      <nav class="category-nav" aria-label="Categorias do cardápio"><a href="#burgers" class="active" aria-current="location">Burgers</a><a href="#porcoes">Porções</a><a href="#combos">Combos</a><a href="#bebidas">Bebidas</a></nav>
-      <div class="category" id="burgers">
-        <div class="category-title"><h3>Burgers artesanais</h3></div>
-        <div class="burger-grid">
-          <article class="burger-card featured">
-            <div class="card-photo"><img src="assets/burger-especial.jpg" width="235" height="366" alt="Burger com várias camadas de recheio, publicado pela Johnne’s" loading="lazy"><span class="card-label">EM DESTAQUE</span></div>
-            <div class="card-body"><h4>Burger Especial</h4><p>Para quem gosta de um burger caprichado, do pão ao recheio.</p><div class="item-bottom"><span>Valor sob consulta</span><a class="order-item" data-item="Burger Especial" href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20o%20Burger%20Especial" target="_blank" rel="noopener noreferrer" aria-label="Consultar Burger Especial no WhatsApp">Consultar <span aria-hidden="true">↗</span></a></div></div>
-          </article>
-          <article class="burger-card">
-            <div class="card-photo"><img src="assets/burger-classico.jpg" width="234" height="189" alt="Burger da Johnne’s servido sobre papel da hamburgueria" loading="lazy"></div>
-            <div class="card-body"><h4>Burger Clássico</h4><p>Aquele pedido para matar a vontade de um bom artesanal.</p><div class="item-bottom"><span>Valor sob consulta</span><a class="order-item" data-item="Burger Clássico" href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20o%20Burger%20Cl%C3%A1ssico" target="_blank" rel="noopener noreferrer" aria-label="Consultar Burger Clássico no WhatsApp">Consultar <span aria-hidden="true">↗</span></a></div></div>
-          </article>
-          <article class="burger-card">
-            <div class="card-photo"><img src="assets/burger-duplo.jpg" width="233" height="135" alt="Burger alto da Johnne’s, com camadas de carne e queijo" loading="lazy"></div>
-            <div class="card-body"><h4>Burger Duplo</h4><p>Uma opção para quando a fome pede um pouco mais.</p><div class="item-bottom"><span>Valor sob consulta</span><a class="order-item" data-item="Burger Duplo" href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20o%20Burger%20Duplo" target="_blank" rel="noopener noreferrer" aria-label="Consultar Burger Duplo no WhatsApp">Consultar <span aria-hidden="true">↗</span></a></div></div>
-          </article>
-        </div>
-      </div>
-      <div class="extras">
-        <section class="extra category" id="porcoes" aria-label="Porções"><p><strong>Porções:</strong> <a href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20conhecer%20as%20por%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">consulte as opções no WhatsApp.</a></p></section>
-        <section class="extra category" id="combos" aria-label="Combos"><p><strong>Combos:</strong> <a href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20conhecer%20os%20combos." target="_blank" rel="noopener noreferrer">consulte as opções no WhatsApp.</a></p></section>
-        <section class="extra category" id="bebidas" aria-label="Bebidas"><p><strong>Bebidas:</strong> <a href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20conhecer%20as%20bebidas." target="_blank" rel="noopener noreferrer">consulte as opções no WhatsApp.</a></p></section>
-      </div>
-    </section>
-    <section class="delivery-section" id="delivery" aria-labelledby="delivery-title"><div class="shell delivery-layout"><div><p class="eyebrow">O SEU BURGER, DO SEU JEITO</p><h2 id="delivery-title">ESCOLHEU?<br><em>BORA PEDIR.</em></h2><p>Direto com a gente ou pelo seu app favorito.<br>Você escolhe como a Johnne’s chega até você.</p></div><div class="delivery-options">
-      <a class="delivery-wa" data-whatsapp href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.8 7.4L3 20.5l1.4-4.6A8.5 8.5 0 1 1 20.5 11.7Z"/><path d="M8 7.5c-.5.6-.5 1.7.5 3.4 1.1 1.8 2.9 3.2 4.7 3.8 1.8.6 2.7-.1 3-1l-2.4-1.1-.9 1c-1.6-.6-2.8-1.8-3.4-3.1l.7-.9L9 7.3Z"/></svg><span>Pedir pelo WhatsApp<small>Fale diretamente com a Johnne’s</small></span><b aria-hidden="true">↗</b></a>
-      <div class="delivery-apps"><button type="button" data-app="iFood"><strong class="ifood-word">iFood</strong><span>Ver opção <b aria-hidden="true">↗</b></span></button><button type="button" data-app="99 Food"><strong class="food99-word">99 <span>Food</span></strong><span>Ver opção <b aria-hidden="true">↗</b></span></button></div>
-    </div></div></section>
-    <section class="where shell" id="onde" aria-labelledby="where-title"><div class="address-copy"><p class="eyebrow">DAQUI DE GUARULHOS</p><h2 id="where-title">PERTINHO<br><em>DE VOCÊ.</em></h2><p class="address">Rua Gentio do Ouro, 286<br><span>Tupinambá · Guarulhos, SP</span></p><p class="address-note">Consulte a área de entrega e os horários<br>de atendimento pelo WhatsApp.</p><a class="text-link map-link" href="https://www.google.com/maps/search/?api=1&query=Rua+Gentio+do+Ouro+286+Guarulhos" target="_blank" rel="noopener noreferrer">Ver no mapa <span aria-hidden="true">↗</span></a></div><div class="contact-panel"><img src="assets/johnnes-logo.png" width="112" height="112" alt="Johnne’s Burger" loading="lazy"><p>FOME DE JOHNNE’S?</p><a data-whatsapp href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener noreferrer">(11) 96703-7084</a><a class="instagram-link" href="https://www.instagram.com/johnnesburguer/" target="_blank" rel="noopener noreferrer">@johnnesburguer <span aria-hidden="true">↗</span></a></div></section>
-  </main>
-  <footer class="shell"><span>JOHNNE’S BURGER</span><p>Criado por <strong>Levi Morais</strong></p></footer>
-  <div class="bottom-bar"><a data-whatsapp href="https://wa.me/5511967037084?text=Oi!%20Vim%20pelo%20card%C3%A1pio%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener noreferrer"><span>Pedir pelo WhatsApp</span><span aria-hidden="true">↗</span></a></div>
-  <dialog id="app-dialog" aria-labelledby="dialog-title"><button class="close-dialog" aria-label="Fechar" type="button">×</button><p class="eyebrow">PRÉVIA VISUAL</p><h2 id="dialog-title">PEDIR NO <span id="app-name">APP</span></h2><p>Na versão final, este botão abrirá a loja da Johnne’s no <span id="app-name-copy">app</span>.</p><p>O endereço direto da loja ainda precisa ser confirmado.</p><button class="button button-orange close-dialog-action" type="button">Entendi</button></dialog>
-  <script src="script.js"></script>
-</body>
-</html>
+<a class="skip" href="#cardapio">Ir para o cardápio</a>
+<header class="site-header shell">
+<a class="brand" href="#inicio" aria-label="Johnne’s Burger, início"><img src="assets/johnnes-logo.png" width="72" height="72" alt="Logo Johnne’s Burger"><span>JOHNNE’S<small>BURGER</small></span></a>
+<nav class="desktop-nav" aria-label="Navegação principal"><a href="#cardapio">Cardápio</a><a href="#delivery">Como pedir</a><a href="#onde">Onde estamos</a></nav>
+<a class="header-location" href="#onde"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Tupinambá<small>Guarulhos, SP</small></span></a>
+</header>
+<main>
+<section class="hero shell" id="inicio" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span class="short-line"></span> JOHNNE’S BURGER</p><h1 id="hero-title">HAMBÚRGUER<br>ARTESANAL<br><em>DE VERDADE.</em></h1><p class="intro">A fome pede um burger.<br>Você pede Johnne’s.</p><div class="hero-actions"><a class="button button-orange" href="#cardapio">Montar meu pedido <span aria-hidden="true">↓</span></a><a class="text-link" href="#delivery">Como funciona <span aria-hidden="true">↗</span></a></div></div>
+<figure class="hero-visual"><img class="hero-burger" src="assets/burger-especial.jpg" width="235" height="366" alt="Hambúrguer da Johnne’s Burger" fetchpriority="high"><div class="photo-shade"></div><div class="image-topline"><span>DA JOHNNE’S<br>PRA SUA CASA.</span><span class="round-arrow" aria-hidden="true">↗</span></div><figcaption><span>É DE DAR<br><b>ÁGUA NA BOCA.</b></span><small>Foto do Instagram<br>@johnnesburguer</small></figcaption></figure>
+</section>
+<div class="brand-strip" aria-label="Hambúrguer artesanal, delivery em Guarulhos, Johnne’s Burger"><div class="shell"><span>HAMBÚRGUER ARTESANAL</span><b aria-hidden="true">✳</b><span>DELIVERY EM GUARULHOS</span><b aria-hidden="true">✳</b><span>JOHNNE’S BURGER</span></div></div>
+<section class="menu-section shell" id="cardapio" aria-labelledby="menu-title">
+<div class="section-heading"><div><p class="eyebrow">ESCOLHA O SEU</p><h2 id="menu-title">BATEU A <em>FOME?</em></h2></div><p>Escolha, adicione à sacola<br>e envie tudo de uma vez.</p></div>
+<p class="menu-note">Prévia com itens de exemplo. Nomes, ingredientes e valores serão ajustados ao cardápio da loja.</p>
+<nav class="category-nav" aria-label="Categorias do cardápio"><a href="#burgers" class="active" aria-current="location">Burgers</a><a href="#porcoes">Porções</a><a href="#combos">Combos</a><a href="#bebidas">Bebidas</a></nav>
+<section class="category" id="burgers" aria-labelledby="burgers-title"><div class="category-title"><h3 id="burgers-title">Burgers artesanais</h3></div><div class="burger-grid" data-menu="burgers"></div></section>
+<section class="category catalog-category" id="porcoes" aria-labelledby="porcoes-title"><div class="category-title"><h3 id="porcoes-title">Porções para compartilhar</h3></div><div class="compact-grid" data-menu="porcoes"></div></section>
+<section class="category catalog-category" id="combos" aria-labelledby="combos-title"><div class="category-title"><h3 id="combos-title">Seu pedido completo</h3></div><div class="compact-grid" data-menu="combos"></div></section>
+<section class="category catalog-category" id="bebidas" aria-labelledby="bebidas-title"><div class="category-title"><h3 id="bebidas-title">Bebidas geladas</h3></div><div class="compact-grid" data-menu="bebidas"></div></section>
+<noscript><p>Ative o JavaScript no navegador para visualizar os itens e montar sua sacola.</p></noscript>
+</section>
+<section class="delivery-section" id="delivery" aria-labelledby="delivery-title"><div class="shell delivery-layout"><div><p class="eyebrow">DO CARDÁPIO À SUA SACOLA</p><h2 id="delivery-title">SEU PEDIDO.<br><em>SEM COMPLICAÇÃO.</em></h2><p>Você escolhe tudo por aqui. O WhatsApp entra só no final, com o pedido organizado para a loja.</p></div><div class="order-guide"><p><strong>Escolha seus favoritos</strong><span>Veja os ingredientes, tamanhos e o que vem em cada combo.</span></p><p><strong>Revise sua sacola</strong><span>Ajuste as quantidades e inclua suas observações.</span></p><p><strong>Envie o pedido completo</strong><span>Itens e quantidades seguem juntos em uma única mensagem.</span></p><button class="button button-orange" type="button" data-open-cart>Ver minha sacola <span aria-hidden="true">↗</span></button></div></div></section>
+<section class="where shell" id="onde" aria-labelledby="where-title"><div class="address-copy"><p class="eyebrow">DAQUI DE GUARULHOS</p><h2 id="where-title">PERTINHO<br><em>DE VOCÊ.</em></h2><p class="address">Rua Gentio do Ouro, 286<br><span>Tupinambá · Guarulhos, SP</span></p><p class="address-note">A disponibilidade de entrega e a taxa são confirmadas pela loja na finalização.</p><a class="text-link map-link" href="https://www.google.com/maps/search/?api=1&query=Rua+Gentio+do+Ouro+286+Guarulhos" target="_blank" rel="noopener noreferrer">Ver no mapa <span aria-hidden="true">↗</span></a></div><div class="contact-panel"><img src="assets/johnnes-logo.png" width="112" height="112" alt="Johnne’s Burger" loading="lazy"><p>FOME DE JOHNNE’S?</p><a class="text-link" href="#cardapio">Escolher meus favoritos <span aria-hidden="true">↑</span></a><a class="instagram-link" href="https://www.instagram.com/johnnesburguer/" target="_blank" rel="noopener noreferrer">@johnnesburguer <span aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer class="shell"><span>JOHNNE’S BURGER</span><p>Criado por <strong>Levi Morais</strong></p></footer>
+<div class="cart-bar"><button type="button" data-open-cart aria-label="Ver minha sacola, 0 itens"><span class="cart-count" id="cart-count">0</span><span id="cart-bar-label">Ver minha sacola</span><span class="cart-bar-total">R$ 00,00 <span aria-hidden="true">↗</span></span></button></div>
+<div class="toast" id="cart-status" role="status" aria-live="polite"></div>
+<dialog id="cart-dialog" aria-labelledby="cart-title">
+<div class="cart-heading"><div><p class="eyebrow">TUDO DO SEU JEITO</p><h2 id="cart-title">MINHA SACOLA</h2></div><button class="cart-close" type="button" aria-label="Fechar sacola">×</button></div>
+<div id="cart-empty"><p>Sua sacola está esperando seus favoritos.</p><button type="button" class="button button-orange" id="choose-items">Escolher no cardápio</button></div>
+<form id="checkout-form" hidden>
+<ul id="cart-items" class="cart-items" aria-label="Itens na sacola"></ul>
+<div class="cart-subtotal"><span>Subtotal dos itens</span><strong>R$ 00,00</strong></div>
+<fieldset class="fulfillment"><legend>Como quer receber?</legend><label><input type="radio" name="fulfillment" value="retirada" checked> Retirada</label><label><input type="radio" name="fulfillment" value="entrega"> Entrega</label></fieldset>
+<label class="field">Seu nome <input id="customer-name" name="customer" autocomplete="name" maxlength="80" placeholder="Como podemos te chamar?" required></label>
+<div id="address-fields" hidden><label class="field">Endereço de entrega <textarea id="customer-address" name="address" autocomplete="street-address" maxlength="350" rows="3" placeholder="Rua, número, bairro e complemento"></textarea></label><p class="delivery-detail">Taxa e disponibilidade de entrega confirmadas pela loja. Não incluídas no subtotal.</p></div>
+<label class="field">Observações <span class="optional">(opcional)</span><textarea id="order-notes" maxlength="500" rows="2" placeholder="Ex.: Burger Clássico sem cebola"></textarea></label>
+<p class="checkout-note">Simulação da prévia: os valores de R$ 00,00 são ilustrativos. Nenhum pagamento será realizado.</p>
+<button type="submit" class="button checkout-button">Finalizar no WhatsApp <span aria-hidden="true">↗</span></button>
+<p class="checkout-help">A mensagem abre pronta. Revise e toque em enviar no WhatsApp.</p>
+</form></dialog>
+<script src="script.js"></script>
+</body></html>
