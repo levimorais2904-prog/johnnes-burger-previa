@@ -1,8 +1,5 @@
 'use strict';
-const number='5511967037084';
-const whatsapp=message=>'https://wa.me/'+number+'?text='+encodeURIComponent(message);
-document.querySelectorAll('[data-whatsapp]').forEach(a=>{a.href=whatsapp('Oi! Vim pela prévia do cardápio da Johnne’s Burger e gostaria de conhecer as opções e fazer um pedido.');});
-document.querySelectorAll('[data-item]').forEach(a=>{a.href=whatsapp('Oi! Vi a prévia do cardápio da Johnne’s Burger. Quais são as opções e os valores de '+a.dataset.item+'?');});
+// WhatsApp messages live directly in HTML links, including when JavaScript is unavailable.
 const tabs=[...document.querySelectorAll('.category-nav a')];
 const categories=[...document.querySelectorAll('.category')];
 let scrollQueued=false;
